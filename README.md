@@ -1,6 +1,6 @@
 # Possible Stories Dataset
 
-This repository provides the dataset and the crowdsourcing instructions used for our data collection in [Possible Stories: Evaluating Situated Commonsense Reasoning under Multiple Possible Scenarios (Ashida and Sugawara, COLING 2022, to appear)](#).
+This repository provides the dataset and the crowdsourcing instructions used for our data collection in [Possible Stories: Evaluating Situated Commonsense Reasoning under Multiple Possible Scenarios (Ashida and Sugawara, COLING 2022)](https://arxiv.org/abs/2209.07760).
 
 <p align="center"><img src="img/overview.png" width=50% height=50%></p>
 
