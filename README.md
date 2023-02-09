@@ -73,7 +73,7 @@ All models are fine-tuned on the [RACE dataset](https://aclanthology.org/D17-108
 The collected story endings, questions and options (excluding passages) are released under [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0).
 
 
-## Citation
+## Reference
 
 ```
 @inproceedings{ashida-sugawara-2022-possible,
