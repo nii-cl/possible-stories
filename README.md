@@ -28,6 +28,16 @@ This repository provides the dataset and the crowdsourcing instructions used for
 You can find further details in the paper.
 
 
+## Run models
+
+If you want to finetune BERT-base and see the result, the command is:
+```
+$ python run.py --model_name bert-base --train
+```
+The models available in this script are: `{bert,roberta,deberta}-{base,large}` and `roberta-large-race`.
+To specify hyperparameters, you can find their definitions in the script.
+
+
 ## Model and Human Performance
 
 Let us know if you achieve higher or comparable performance with your models. We will add them to the tables below for reference.

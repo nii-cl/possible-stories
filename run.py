@@ -62,6 +62,7 @@ model_checkpoint, batch_size, learning_rate = {
     "deberta-base": ("microsoft/deberta-v3-base", 16, 3e-5),
     "deberta-large": ("microsoft/deberta-v3-large", 8, 1e-5),
 }[args.model_name]
+num_epochs = 5
 
 tokenizer = AutoTokenizer.from_pretrained(model_checkpoint, use_fast=True)
 
@@ -126,7 +127,7 @@ train_args = TrainingArguments(
     per_device_eval_batch_size=batch_size,
     gradient_accumulation_steps=3,
     # num_train_epochs=10,  # or 5
-    max_steps=math.ceil(train_size * 0.1 / batch_size),
+    max_steps=math.ceil(train_size * num_epochs / batch_size),
     weight_decay=0.01,
     load_best_model_at_end=True,
     metric_for_best_model="accuracy",
