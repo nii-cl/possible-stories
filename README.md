@@ -76,10 +76,15 @@ The collected story endings, questions and options (excluding passages) are rele
 ## Citation
 
 ```
-@inproceedings{ashida-sugawara-2022-possible
-  title = {Possible Stories: Evaluating Situated Commonsense Reasoning under Multiple Possible Scenarios},
-  author = {Mana Ashida and Saku Sugawara},
-  booktitle = {Proceedings of the 29th International Conference on Computational Linguistics},
-  year = 2022,
-  publisher = {Association for Computational Linguistics}
+@inproceedings{ashida-sugawara-2022-possible,
+    title = "Possible Stories: Evaluating Situated Commonsense Reasoning under Multiple Possible Scenarios",
+    author = "Ashida, Mana and Sugawara, Saku",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.319",
+    pages = "3606--3630",
+}
 ```
