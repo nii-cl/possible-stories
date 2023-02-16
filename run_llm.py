@@ -7,7 +7,7 @@ from transformers import T5ForConditionalGeneration, T5Tokenizer
 
 random.seed(1234)
 
-model_name = "flan-t5-xxl"  # or 'race'
+model_name = "flan-t5-xxl"  # or 'flan-t5-xl'
 dataset_name = "possible_stories"  # or 'race'
 shot_num = 0
 
