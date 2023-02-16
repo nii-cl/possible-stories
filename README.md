@@ -45,13 +45,14 @@ Let us know if you achieve higher or comparable performance with your models. We
 
 ### Unsupervised Setting (test only)
 
-All models are fine-tuned on the [RACE dataset](https://aclanthology.org/D17-1082/) to process multiple choice QA.
+All RoBERTa/DeBERTa models are fine-tuned on the [RACE dataset](https://aclanthology.org/D17-1082/) to process multiple choice QA.
 
 | Model | Accuracy (%) | Consistency (%) |
 | ----- | -------- | ----------- |
 | DeBERTa-large | 60.2 | 19.9 |
 | RoBERTa-large | 50.5 | 13.8 |
 | DeBERTa-base | 45.3 | 8.2 |
+| [Flan-T5 XXL](https://huggingface.co/google/flan-t5-xxl) (11B; zero shot)| 80.8 | 51.0 |
 | Human | 92.5 | 76.5 |
 
 ### Supervised Setting (train and test on our dataset)
