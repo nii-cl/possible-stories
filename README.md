@@ -55,6 +55,15 @@ All RoBERTa/DeBERTa models are fine-tuned on the [RACE dataset](https://aclantho
 | [Flan-T5 XXL](https://huggingface.co/google/flan-t5-xxl) (11B; zero shot)| 80.8 | 51.0 |
 | Human | 92.5 | 76.5 |
 
+### Few-Shot Setting
+
+
+| Model | Accuracy (%) | Consistency (%) |
+| ----- | -------- | ----------- |
+| [Flan-T5 XXL](https://huggingface.co/google/flan-t5-xxl) (11B; 3 shot, avg of 5 runs)| 81.4 | 50.7 |
+| Human | 92.5 | 76.5 |
+
+
 ### Supervised Setting (train and test on our dataset)
 
 | Model | Accuracy (%) | Consistency (%) |
